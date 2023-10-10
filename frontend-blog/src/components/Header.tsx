@@ -36,7 +36,7 @@ const [activeIndex, setActiveIndex] = useState(0)
   return (
     <div className = 'flex flex-col m-5 px-[40px] md:px-[70px]'>
       <div className = ' h-full w-full'>
-           <Image src='/banner.jpg' alt='headerImage' width={500} height={500} className='w-full rounded-xl' />
+           <Image src='/banner.jpg' alt='headerImage' width={500} height={500} priority={true} className='w-full rounded-xl' />
       </div>
       <div className='flex bg-white shadow-lg rounded-lg px-4 max-md:py-1 py-2 mt-[-20px] mx-[25%]'>
         <BiSearch  size={30} className= 'mr-1 text-gray-400'/>
@@ -52,9 +52,7 @@ const [activeIndex, setActiveIndex] = useState(0)
         ))}
       </div>
 
-      {/*<div >
-        
-  </div>*/}
+      
     </div>
   )
 }
