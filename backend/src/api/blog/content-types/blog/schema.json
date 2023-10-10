@@ -28,14 +28,19 @@
         "audios"
       ]
     },
-    "description": {
-      "type": "richtext",
+    "Description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "category": {
+      "type": "string",
       "required": true
     },
-    "hashtag": {
-      "type": "string",
-      "unique": true,
-      "required": true
+    "Date": {
+      "type": "date"
     }
   }
 }

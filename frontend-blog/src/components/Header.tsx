@@ -14,19 +14,19 @@ const Header = () => {
     },
     {
       id:2,
-      name:'Animals'
+      name:'React'
     },
     {
       id:3,
-      name:'Hiking'
+      name:'NodeJS'
     },
     {
       id:4,
-      name:'Beaches'
+      name:'Express'
     },
     {
       id:5,
-      name:'Lakes'
+      name:'MongoDB'
     }
   ]
 

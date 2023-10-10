@@ -6,15 +6,15 @@ const Navbar = () => {
   return (
     <div className ='m-5 flex justify-between items-center'>
       <div className =''>
-        <h1 className='text-2xl xl:text-3xl font-semibold text-black'>Talii<i className='text-red-700 text-3xl'>Ke</i></h1>
+        <h1 className='text-2xl xl:text-3xl font-semibold text-black'>Codes<i className='text-red-700 text-3xl'>Ke</i></h1>
       </div>
 
       
     <ul className='hidden md:flex md:gap-20 xl:gap-28 gap-5'>
           <li className='font-semibold cursor-pointer hover:text-red-600'><a href='/'>Home</a></li>
           <li className='font-semibold cursor-pointer hover:text-red-600'><a href='#BlogIntro'>About</a></li>
-          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='#Gallery'>Gallery</a></li>
-          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='#Blog'>Blog</a></li>
+          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='#Gallery'>Blog</a></li>
+          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='#Blog'>ContactUs</a></li>
     </ul>
 
         <AiOutlineMenu size={27} className='md:hidden '/>
