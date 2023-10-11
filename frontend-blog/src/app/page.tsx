@@ -1,6 +1,6 @@
-import Header from '@/components/Header'
-import IntroBlog from '@/components/Introblog'
-import Navbar from '@/components/Navbar'
+import Header from '@/app/components/Header'
+import IntroBlog from '@/app/components/Introblog'
+import Navbar from '@/app/components/Navbar'
 
 
 

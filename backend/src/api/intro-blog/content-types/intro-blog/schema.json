@@ -4,7 +4,8 @@
   "info": {
     "singularName": "intro-blog",
     "pluralName": "intro-blogs",
-    "displayName": "IntroBlog"
+    "displayName": "IntroBlog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,23 +18,26 @@
       "unique": true
     },
     "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
-    },
-    "description": {
-      "type": "richtext",
-      "required": true
+      ]
     },
     "Hashtag": {
       "type": "string",
       "required": true
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

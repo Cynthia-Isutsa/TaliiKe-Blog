@@ -12,9 +12,9 @@ const Navbar = () => {
       
     <ul className='hidden md:flex md:gap-20 xl:gap-28 gap-5'>
           <li className='font-semibold cursor-pointer hover:text-red-600'><a href='/'>Home</a></li>
-          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='#BlogIntro'>About</a></li>
-          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='#Gallery'>Blog</a></li>
-          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='#Blog'>ContactUs</a></li>
+          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='/About'>About</a></li>
+          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='/Blog'>Blog</a></li>
+          <li className='font-semibold cursor-pointer hover:text-red-600'><a href='/Contact'>ContactUs</a></li>
     </ul>
 
         <AiOutlineMenu size={27} className='md:hidden '/>

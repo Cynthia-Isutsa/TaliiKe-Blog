@@ -42,12 +42,12 @@ const [activeIndex, setActiveIndex] = useState(0)
         <BiSearch  size={30} className= 'mr-1 text-gray-400'/>
         <input type='text' placeholder='search' className='outline-none border-none ' />
       </div>
-      <div className='flex justify-center items-center gap-5 md:gap-14 xl:gap-20 mt-5'>
+      <div className='flex justify-center items-center gap-3 md:gap-14 xl:gap-20 mt-5'>
         {tags.map((item, index) => (
           <ul key= {item.id} onClick={() =>setActiveIndex(index)} className={`${ index === activeIndex ?
            'bg-red-500 text-semibold': null} px-2 rounded-lg cursor-pointer hover:scale-110 hover:border-[1px]
             border-red-500 transition-all duration-300 ease-in-out`}>
-             <li  className=''>{item.name}</li>
+             <li  className='px'>{item.name}</li>
           </ul>
         ))}
       </div>
