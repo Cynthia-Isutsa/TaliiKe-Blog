@@ -33,7 +33,7 @@ const Blogs = () => {
             <div className="cursor-pointer w-full border border-[#2f3241]">
               <div className="h-[240px] w-full overflow-hidden">
                 <img
-                  src={`http://localhost:1337${item.attributes.image.data.attributes.url}`}
+                  src={`http://localhost:1337${item.attributes.Image.data.attributes.url}`}
                   alt=""
                   className="w-full h-[100%] object-cover hover:scale-[109%] transition-all duration-300 ease-in-out"
                 />
@@ -51,7 +51,6 @@ const Blogs = () => {
                         alt=""
                       />
                     </div>
-                    <p>{item.attributes.author}</p>
                   </div>
                   <div>
                     <p>{item.attributes.date}</p>
