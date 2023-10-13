@@ -34,7 +34,7 @@ const IntroBlog = () => {
             <h1 className="text-start  bg-[#4B6BFB]/[5%] text-[24px] font-bold text-red-800">Intro Post</h1>
          </div>
         {data?.map((item: any, index: number) => (
-          <Link href='/IntroBlog' key={index} className='grid grid-cols-1 md:grid-cols-2 mt-10 px-10 md:px-15 lg:px-32 gap-8'>
+          <Link href='/About' key={index} className='grid grid-cols-1 md:grid-cols-2 mt-10 px-10 md:px-15 lg:px-32 gap-8'>
             <div>
                 <img src={'http://localhost:1337/uploads/MERNS_b037502ad9.webp'} alt=""
                 className="rounded-2xl object-cover w-full h-[100%] hover:scale-[109%] transition-all duration-300 ease-in-out"/>

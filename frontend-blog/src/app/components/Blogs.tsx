@@ -33,7 +33,7 @@ const Blogs = () => {
             <div className="cursor-pointer w-full border border-[#2f3241]">
               <div className="h-[240px] w-full overflow-hidden">
                 <img
-                  src={`http://localhost:1337${item.attributes.Image.data.attributes.url}`}
+                 src={'http://localhost:1337/uploads/MERNS_878360efaa.webp'}
                   alt=""
                   className="w-full h-[100%] object-cover hover:scale-[109%] transition-all duration-300 ease-in-out"
                 />
@@ -43,21 +43,11 @@ const Blogs = () => {
                   {item.attributes.category}
                 </h2>
                 <p className="text-[24px] font-bold">{item.attributes.title}</p>
-                <div className="flex items-center gap-[25px] pt-[10px] text-[#97989F]">
-                  <div className="flex items-center gap-[10px]">
-                    <div>
-                      <img
-                        src={`http://localhost:1337${item.attributes.avatar.data.attributes.url}`}
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div>
-                    <p>{item.attributes.date}</p>
-                  </div>
-                </div>
+                <p className = 'line-clamp-6 text-gray-500 md:text-lg'>{item.attributes.Description}</p>
+                <p>{item.attributes.Date}</p>
               </div>
             </div>
+        
           </Link>
         ))}
       </div>
