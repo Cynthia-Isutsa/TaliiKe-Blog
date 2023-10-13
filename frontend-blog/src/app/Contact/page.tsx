@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
@@ -23,13 +24,14 @@ const Contact = () => {
           <textarea placeholder='Start typing your message here....' name='message' rows={6}  
           className="border-hidden outline-none bg-gray-300 pl-2 pr-[400px] py-3 my-2"/>
           <div className='flex flex-col justify-center items-center'>
-             <button value='button' className='mt-4 bg-black text-white px-5 py-3 text-2xl font-semibold cursor-pointer hover:scale-110 ease-in duration-200'>
+             <button value='button' className='my-4 bg-black text-white px-5 py-3 text-2xl font-semibold cursor-pointer hover:scale-110 ease-in duration-200'>
               Send Message
               </button>
           </div>
         </form>
         
       </div>
+      <Footer />
 
     </div>
   )

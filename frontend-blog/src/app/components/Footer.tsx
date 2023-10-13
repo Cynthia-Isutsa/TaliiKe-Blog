@@ -13,7 +13,7 @@ const Footer = () => {
             width={70}
             className="lottie"
           />
-          <p className="font-bold uppercase text-[20px] hover:text-purple-900">
+          <p className="font-bold uppercase text-[20px] hover:text-blue-900">
             Blogs
           </p>
           <p className="ml-[15px] text-[#97989F]">
