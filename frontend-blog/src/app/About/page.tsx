@@ -32,8 +32,8 @@ const About = () => {
     return (
       <div >
         <Navbar />
-        <div className='bg-[#4B6BFB]/[5%]  rounded-xl w-full h-[200px]'>
-            <h1 className="text-4xl md:text-7xl lg:pt-9 font-bold text-center">Intro Post</h1>
+        <div className='bg-[#1f1926]  rounded-xl w-full h-[200px]'>
+            <h1 className="text-4xl md:text-7xl lg:pt-9 text-[#fceaff] font-bold text-center">Intro Post</h1>
          </div>
         {data?.map((item: any, index: number) => (
             <div key={index} className ='grid grid-cols-1 mt-10 mb-3 px-10 md:px-15 lg:px-32 gap-8'>

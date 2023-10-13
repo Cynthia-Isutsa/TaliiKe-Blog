@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 
-  
+body{
+  background: #FCF8FF;
+}
   .lottie svg{
     width: 100px !important;
     height: 100px!important;
