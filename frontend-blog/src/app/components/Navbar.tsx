@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className ='m-5 flex justify-between items-center'>
       <div className =''>
-        <h1 className='text-2xl xl:text-3xl font-semibold text-black'>Codes<i className='text-blue-700 text-3xl'>Ke</i></h1>
+        <h1 className='text-2xl xl:text-3xl font-semibold text-[#1F1926]'>Codes<i className='text-blue-700 text-3xl'>Ke</i></h1>
       </div>
 
       

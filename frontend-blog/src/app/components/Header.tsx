@@ -1,58 +1,20 @@
-'use client';
-
-import React, { useState } from 'react'
-import Image from 'next/image'
-import {BiSearch} from 'react-icons/bi'
-
+import React from 'react'
+import Image from 'next/image';
+import Link from 'next/link';
+import { header1,header2, header3 } from '../../../public';
 
 const Header = () => {
-
-  const tags =[
-    {
-      id:1,
-      name:'All'
-    },
-    {
-      id:2,
-      name:'React'
-    },
-    {
-      id:3,
-      name:'NodeJS'
-    },
-    {
-      id:4,
-      name:'Express'
-    },
-    {
-      id:5,
-      name:'MongoDB'
-    }
-  ]
-
-const [activeIndex, setActiveIndex] = useState(0)
-
-
   return (
-    <div className = 'flex flex-col m-5 px-[40px] md:px-[70px]'>
-      <div className = ' h-full w-full'>
-           <Image src='/123.png' alt='headerImage' width={500} height={500} priority={true} className='w-full rounded-xl' />
+    <div className='mt-20 ml-10 grid grid-cols-1 md:grid-cols-2 gap-3'>
+      <div className=''>
+        <h1 className='text-6xl font-bold capitalize'>Consistency  transforms average into excellence</h1>
+        <p className= 'mt-12 text-3xl font-semibold'>Sharpen your brain by coding daily...</p>
+        
+        <Link href='/Blog'><button className='my-10 text-xl bg-blue-700 text-[#FCEAFF] px-4 py-2 shadow-xl hover:text-black'>Let's Get Started</button></Link>
       </div>
-      <div className='flex bg-white shadow-lg rounded-lg px-4 max-md:py-1 py-2 mt-[-20px] mx-[25%]'>
-        <BiSearch  size={30} className= 'mr-1 text-gray-400'/>
-        <input type='text' placeholder='search' className='outline-none border-none ' />
+      <div>
+        <Image src={header3} alt='header' width={500} height={500} />
       </div>
-      <div className='flex justify-center items-center gap-3 md:gap-14 xl:gap-20 mt-5'>
-        {tags.map((item, index) => (
-          <ul key= {item.id} onClick={() =>setActiveIndex(index)} className={`${ index === activeIndex ?
-           'bg-red-500 text-semibold': null} px-2 rounded-lg cursor-pointer hover:scale-110 hover:border-[1px]
-            border-red-500 transition-all duration-300 ease-in-out`}>
-             <li  className='px'>{item.name}</li>
-          </ul>
-        ))}
-      </div>
-
-      
     </div>
   )
 }

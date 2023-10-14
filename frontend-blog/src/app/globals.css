@@ -13,18 +13,21 @@ body{
   }
   
   .slick-dots {
-    bottom: 23px !important;
+    bottom: 20px !important;
+    
   }
   
   .slick-dots li.slick-active button:before {
-    color: white!important;
+    color: black!important;
+    
   }
-  
   .header{
     /* background: url("https://img.freepik.com/free-vector/dark-pattern-background_1078-81.jpg"); */
-    background: url("https://img.freepik.com/free-vector/blue-diagonal-square-grid-background_1409-1251.jpg");
-    z-index: -1;
+    
+   
     background-color: #181a2a00; /* Fallback color in case the image fails to load */
     background-blend-mode: screen;
   
   }
+  
+  

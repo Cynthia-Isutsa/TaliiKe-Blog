@@ -30,8 +30,9 @@ const IntroBlog = () => {
 
     return (
       <div >
-        <div className='mx-10'>
-            <h1 className="text-start  bg-[#4B6BFB]/[5%] text-[24px] font-bold text-red-800">Intro Post</h1>
+        <div className='bg-[#1f1926] w-full h-[200px]'>
+            <h1 className="text-2xl md:text-4xl lg:py-16 text-[#fceaff] font-bold text-center">Blogs on HTML/CSS, MERN stack,
+            Django  and DSA</h1>
          </div>
         {data?.map((item: any, index: number) => (
           <Link href='/About' key={index} className='grid grid-cols-1 md:grid-cols-2 mt-10 px-10 md:px-15 lg:px-32 gap-8'>
