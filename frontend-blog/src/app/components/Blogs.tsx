@@ -33,7 +33,7 @@ const Blogs = () => {
             <div className="cursor-pointer w-full border border-[#2f3241]">
               <div className="h-[240px] w-full overflow-hidden">
                 <img
-                 src={'http://localhost:1337/uploads/MERNS_878360efaa.webp'}
+                 src={`http://localhost:1337/uploads/girl_coding_e3fd6f5fdb.webp`}
                   alt=""
                   className="w-full h-[100%] object-cover hover:scale-[109%] transition-all duration-300 ease-in-out"
                 />
@@ -54,7 +54,7 @@ const Blogs = () => {
       <div className="flex items-center justify-center pt-[40px]">
         <button
           onClick={handleLimit}
-          className="h-[50px] w-[150px] border border-[#2f3241] text-[#97989F] hover:text-white"
+          className="h-[50px] w-[150px] border border-[#2f3241] text-[black] hover:tex-blue-700"
         >
           View All Posts
         </button>

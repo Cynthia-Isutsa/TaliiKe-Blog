@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import { header1,header2, header3 } from '../../../public';
+import { header3 } from '../../../public';
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
         
         <Link href='/Blog'><button className='my-10 text-xl bg-blue-700 text-[#FCEAFF] px-4 py-2 shadow-xl hover:text-black'>Let's Get Started</button></Link>
       </div>
-      <div>
+      <div className='w-full h-full'>
         <Image src={header3} alt='header' width={500} height={500} />
       </div>
     </div>

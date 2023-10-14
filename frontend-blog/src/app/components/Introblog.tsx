@@ -30,8 +30,8 @@ const IntroBlog = () => {
 
     return (
       <div >
-        <div className='bg-[#1f1926] w-full h-[200px]'>
-            <h1 className="text-2xl md:text-4xl lg:py-16 text-[#fceaff] font-bold text-center">Blogs on HTML/CSS, MERN stack,
+        <div className='bg-gray-700 w-full h-[200px]'>
+            <h1 className="text-2xl md:text-4xl lg:py-16 text-[#FCEAFF] font-bold text-center">Blogs on HTML/CSS, MERN stack,
             Django  and DSA</h1>
          </div>
         {data?.map((item: any, index: number) => (
@@ -41,7 +41,7 @@ const IntroBlog = () => {
                 className="rounded-2xl object-cover w-full h-[100%] hover:scale-[109%] transition-all duration-300 ease-in-out"/>
             </div>
             <div>
-                <h3 className='text-red-700 text-semibold'>{item.attributes.Hashtag}</h3>
+                <h3 className='text-blue-700 font-semibold'>{item.attributes.Hashtag}</h3>
                 <h2 className='text-xl font-bold my-2'>{item.attributes.Title}</h2>
                 <p className = 'line-clamp-6 text-gray-500 md:text-lg'>{item.attributes.description}</p>
                
